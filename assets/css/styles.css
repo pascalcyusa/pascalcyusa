@@ -483,10 +483,12 @@ main {
     margin-inline: auto;
   }
 
-  .services__container {
-    grid-template-columns: repeat(2, 1fr);
+  .services__container,
+  .about__container,                  
+  .blog__container {
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    column-gap: 2.5rem;
+    gap: 2.5rem;
   }
 
   .services__image-wrapper {
@@ -498,19 +500,11 @@ main {
   }
 
   .services__list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
   }
 
   .services__list-item {
     align-self: center;
-  }
-
-  .services__container,
-  .about__container,
-  .blog__container {
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 2.5rem;
   }
 
   .blog__post:first-of-type {
@@ -538,6 +532,6 @@ main {
   }
 
   .services__container { 
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
