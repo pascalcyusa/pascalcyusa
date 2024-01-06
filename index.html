@@ -32,16 +32,16 @@
                         <a href="#portfolio" class="navbar__list-link">Portfolio</a>
                     </li>
                     <li class="navbar__list-item">
-                        <a href="#services" class="navbar__list-link">Research</a>
+                        <a href="#services" class="navbar__list-link">Projects</a>
                     </li>
                     <li class="navbar__list-item">
-                        <a href="#blog" class="navbar__list-link">Blog</a>
+                        <a href="#blog" class="navbar__list-link">Research</a>
                     </li>
                 </ul>
             </div>
 
             <div class="navbar__btn-group">
-                <a href="#" class="btn btn--text btn--transparent">Contact Me</a>
+                <a href="mailto:Jean_Pascal.Cyusa_Shyaka@tufts.edu" class="btn btn--text btn--transparent">Contact</a>
                 <button type="button" class="btn btn--action" id="menu-toggler">
                     <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.3333 0.999999L0.999918 1" stroke="#fff" stroke-width="2" stroke-linecap="round"
@@ -64,33 +64,60 @@
                     Hello, I'm Pascal an aspiring Mechanical Engineer
                 </h1>
                 <picture class="showcase__image">
-                    <source media="(min-width: 768px)" srcset="./assets/images/showcase_image_lg.png">
+                    <source media="(min-width: 768px)" srcset="./assets/images/pascal_lg.jpeg">
                     <img src="./assets/images/showcase_image_sm.png" alt="">
                 </picture>
+            </div>
+        </section>
+        <!--! === ABOUT === -->
+        <section class="about" id="aboutme">
+            <div class="about__container container">
+                <div class="about__information">
+                    <h2 class="about__information-title title">About Me</h2>
+                    <p class="about__information-description">
+                        I am a Mechanical Engineering student at Tufts University. My current work involves projects
+                        that aim to integrate LEGO, and Arduino into engineering
+                        education. I am passionate about robotics and
+                        automation and how coupled with 3D printing, they can be used to improve the manufacturing
+                        process of a variety of products.
+                    </p>
+                    <p class="about__information-description">
+                        I am also interested in the development of new materials for industrial manufacturing, and
+                        how they can be used to improve the quality of products.
+                    </p>
+                    <a href="https://tufts.box.com/s/t7ga07uyyphwmkcyqyzpf3prvuaymb6b"
+                        class="btn btn--text btn-green">Resumé</a>
+                </div>
+                <div class="about__images">
+                    <img src="./assets/images/about_top.jpeg" alt=""
+                        class="about__images-image about__images-image-top">
+                    <img src="./assets/images/about_bottom.jpeg" alt=""
+                        class="about__images-image about__images-image-bottom">
+                </div>
             </div>
         </section>
         <!--! === PORTFOLIO === -->
         <section class="portfolio" id="portfolio">
             <div class="portfolio__container container">
                 <div class="portfolio__metadata section__metadata">
-                    <h2 class="title">My Works</h2>
+                    <h2 class="title">Portfolio</h2>
                 </div>
                 <div class="swiper myswiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="https://source.unsplash.com/random/500×500/" alt="">
+                            <img src="./assets/images/ball1.jpeg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://source.unsplash.com/random/501×501/" alt="">
+                            <img src="./assets/images/ball2.jpeg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://source.unsplash.com/random/502×502/" alt="">
+                            <img src="./assets/images/ball3.jpeg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://source.unsplash.com/random/503×503/" alt="">
+                            <img src="./assets/images/bridge1.png" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://source.unsplash.com/random/504×504/" alt="">
+                            <img src="./assets/images/bridge2.png" alt="">
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -101,65 +128,35 @@
         <section class="services" id="services">
             <div class="services__container container">
                 <div class="services__metadata section-metadata">
-                    <h2 class="title">Research Experience</h2>
+                    <h2 class="title">Projects</h2>
                     <p class="section-metadata__description">
-                        I have been involved in research since my freshman year at Tufts University.
-                        I have worked on a variety of projects ranging from the development of a novel 3D printing
-                        technique to the design of a novel robotic arm.
+                        I have worked on a variety of projects that have helped me develop my skills in engineering,
+                        especially in understanding the design process and how to use different tools to fabricate
+                        products.
                     </p>
+                    <a href="https://tufts.box.com/s/47wb38luyqj3axt9ewhu4y12u6f3oos8"
+                        class="btn btn--text btn--transparent">Learn More</a>
                 </div>
                 <div class="services__image-wrapper">
-                    <img src="./assets/images/cris_paul.png" alt="">
+                    <img src="./assets/images/services.jpeg" alt="">
                 </div>
                 <div class="services__list">
                     <div class="services__list-divider">
                         <article class="services__list-item">
                             <i class="ri-book-line services__list-icon"></i>
-                            <h3 class="services__list-title title">CEEO</h3>
+                            <h3 class="services__list-title title">Ballon D'Or</h3>
                             <p class="services__list-description">
-                                I have been working at the Center for Engineering Education and Outreach since my
-                                freshman year.
+                                I designed and fabricated a ballon d’or replica using sand casting
+                            </p>
                         </article>
                         <article class="services__list-item">
                             <i class="ri-profile-line services__list-icon"></i>
-                            <h3 class="services__list-title title">OLF</h3>
+                            <h3 class="services__list-title title">Truss</h3>
                             <p class="services__list-description">
-                                I have been working at the Center for Engineering Education and Outreach since my
-                                freshman year.
+                                I built a hip truss bridge to better understand trusses.
+                            </p>
                         </article>
                     </div>
-                    <article class="services__list-item">
-                        <i class="ri-flight-takeoff-line services__list-icon"></i>
-                        <h3 class="services__list-title title">Guasto Lab</h3>
-                        <p class="services__list-description">
-                            I have been working at the Center for Engineering Education and Outreach since my
-                            freshman year.
-                    </article>
-                </div>
-            </div>
-        </section>
-        <!--! === ABOUT === -->
-        <section class="about" id="aboutme">
-            <div class="about__container container">
-                <div class="about__information">
-                    <h2 class="about__information-title title">About Pascal</h2>
-                    <p class="about__information-description">
-                        I am a Mechanical Engineering student at Tufts University. I am passionate about robotics and
-                        automation.
-                        I am currently working on a project that aims to develop a novel robotic arm that can be used in
-                        manufacturing.
-                    </p>
-                    <p class="about__information-description">
-                        I am also interested in the intersection of engineering and business. I am currently working on
-                        a project that aims to develop a novel robotic arm that can be used in manufacturing.
-                    </p>
-                    <a href="#" class="btn btn--text btn-green">Learn More</a>
-                </div>
-                <div class="about__images">
-                    <img src="./assets/images/about_image_top.png" alt=""
-                        class="about__images-image about__images-image-top">
-                    <img src="./assets/images/about_image_bottom.png" alt=""
-                        class="about__images-image about__images-image-bottom">
                 </div>
             </div>
         </section>
@@ -167,29 +164,34 @@
         <section class="blog" id="blog">
             <div class="blog__container container">
                 <div class="blog__metadata section-metadata">
-                    <h2 class="title">Blog Posts</h2>
+                    <h2 class="title">Research</h2>
                     <p class="blog__metadata-description section-metadata__description">
-                        I have been involved in research since my freshman year at Tufts University.
-                        I have worked on a variety of projects ranging from the development of a novel 3D printing
-                        technique to the design of a novel robotic arm.
+                        This past summer, I worked at the Tufts Center for Engineering Education and Outreach (CEEO)
+                        where I helped prepare STEM and Engineering education materials for middle school and high
+                        school kids.
+                        Our work also involved finding ways of helping teachers in underfunded schools in rural Rwanda
+                        incorporate hand-on activities in their engineering curriculum.
+                        We were able to work with over 20 schools in Rwanda to establish makerspaces and trained over 42
+                        teachers.
                     </p>
-                    <a href="#" class="btn btn--text btn--transparent">View all posts</a>
+                    <a href="#" class="btn btn--text btn--transparent">Learn More</a>
                 </div>
                 <article class="blog__post post--left">
                     <picture class="blog__post-image">
-                        <source media="(min-width: 450px)" srcset="./assets/images/blog_post_1.png">
-                        <img src="./assets/images/blog_post_1_small.png" alt="">
+                        <source media="(min-width: 450px)" srcset="./assets/images/ceeo1.jpg">
+                        <img src="./assets/images/ceeo1.jpg" alt="">
                     </picture>
-                    <h3 class="blog__post-title title">Young's Modulus</h3>
-                    <a href="#" class="btn btn--text btn--transparent">Read More</a>
+                    <h3 class="blog__post-title title">Playful Engineering Based Learning</h3>
+                    <a href="https://sites.tufts.edu/pebl/2023/10/02/rwandan-tufts-students-return-home-to-inspire-young-makers/"
+                        class="btn btn--text btn--transparent">Read More</a>
                 </article>
                 <article class="blog__post--right">
                     <picture class="blog__post-image">
-                        <source media="(min-width: 450px)" srcset="./assets/images/blog_post_2.png">
-                        <img src="./assets/images/blog_post_2_small.png" alt="">
+                        <source media="(min-width: 450px)" srcset="./assets/images/ceeo2.jpg">
+                        <img src="./assets/images/ceeo2.jpg" alt="">
                     </picture>
-                    <h3 class="blog__post-title title">Chernobyl</h3>
-                    <a href="#" class="btn btn--text btn--transparent">Read More</a>
+                    <h3 class="blog__post-title title">Outreach Learnig Fellow</h3>
+                    <a href="https://sites.tufts.edu/ceeoolf/" class="btn btn--text btn--transparent">Read More</a>
                 </article>
             </div>
         </section>
@@ -199,7 +201,8 @@
         <div class="footer__container container">
             <div class="footer__group">
                 <h2 class="footer__title title title--main">I'm open to opportunities</h2>
-                <a href="#" class="btn btn--text btn--transparent">Let's connect</a>
+                <a href="mailto:Jean_Pascal.Cyusa_Shyaka@tufts.edu" class="btn btn--text btn--transparent">
+                    Let's connect</a>
             </div>
             <span class="footer__separator"></span>
             <div class="footer__group">
@@ -207,25 +210,27 @@
                     <h1 class="navbar__logo-text">PASCAL.</h1>
                     <!-- <img src="./assets/images/logo.png" alt=""> -->
                 </a>
-                <p class="footer__description">
+                <!-- <p class="footer__description">
                     I am a Mechanical Engineering student at Tufts University. I am passionate about robotics and
                     automation.
                     I am currently working on a project that aims to develop a novel robotic arm that can be used in
                     manufacturing.
+                </p> -->
                 <ul class="footer__list">
                     <li class="footer__list-item">
-                        <a href="#" class="footer__list-link">
+                        <a href="https://www.linkedin.com/in/jean-pascal-cyusa-shyaka-11058a190"
+                            class="footer__list-link">
                             <i class="ri-linkedin-line"></i>
                         </a>
                     </li>
                     <li class="footer__list-item">
-                        <a href="#" class="footer__list-link">
+                        <a href="https://github.com/pascalcyusa" class="footer__list-link">
                             <i class="ri-github-line"></i>
                         </a>
                     </li>
                     <li class="footer__list-item">
-                        <a href="#" class="footer__list-link">
-                            <i class="ri-google-line"></i>
+                        <a href="mailto:Jean_Pascal.Cyusa_Shyaka@tufts.edu" class="footer__list-link">
+                            <i class="ri-mail-line"></i>
                         </a>
                     </li>
                 </ul>
