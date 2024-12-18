@@ -48,11 +48,11 @@ sr.reveal('.showcase__title, .showcase__image, .section__metadata, .swiper', {
     interval: 250
 });
 
-sr.reveal('.services__image-wrapper, .about__information, .post--left', {
+sr.reveal('.about__image-wrapper, .about__information, .post--left', {
     origin: 'left',
 });
 
-sr.reveal('.services__list, .about__images, .post--right', {
+sr.reveal('.about__list, .about__images, .post--right', {
     origin: 'right',
 });
 
